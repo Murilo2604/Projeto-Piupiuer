@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" href="img/logo2.png">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Piupiuer</title>
+  </head>
+  <body>
+    <div class="main_cabecalho">
+      <header id="header">
+        <h1 class="cabecalho">Piupiuer</h1>
+        <a href="feed.html"><img class="cabecalho" src="img/logo2_neg.png" alt="Logo Piupiuer Negativa" width="50" height="66"></a>
+      </header>
+      <main id="main">
+        <h1 class="contenosAlgo">Dê um Piu Piu!</h1>
+        <div class="conteiner meuPost">
+          <img class="fotoPerfil"src="img/perfil.jpeg" alt="Foto de Perfil">
+          <div class="form-e-erro">
+            <p id="erro">O Piu não pode estar vazio nem ter mais de 150 caracteres. Por favor, tente novamente!</p>
+            <form id="novo-piu">
+              <p id="contador"><span id="contador-piupiu">0</span>/150</p>
+              <textarea id="campo-mensagem"></textarea>
+              <a class="botaoPublicar">Publicar</a>
+            </form>
+          </div>
+        </div>
+        <h1 id="cabecalho-feed">Feed</h1>
+      </main>
+    </div>
+    <aside>
+      <div class="conteinerleft">
+        <img src="img/logo2.png" alt="Logo Piupiuer">
+        <form id="form-pesquisa" action="pesquisa.html" method="post">
+          <input id="botao-pesquisa" placeholder="Pesquisar...">
+        </form>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="feed.html">Home</a></li>
+          <li><a href="perfil.html">Perfil</a></li>
+          <li><a href="notificacoes.html">Notificações</a></li>
+        </ul>
+      </nav>
+      <footer id="footer">
+        &copy Piupiuer 2019
+      </footer>
+    </aside>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
